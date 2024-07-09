@@ -204,13 +204,13 @@ body {
     height: 775px;
 }
 
-.inspiration-text {
+.text-design {
     width: 852px;
     height: 113px;
     text-align: center;
 }
 
-.inspiration-text h3 {
+.text-design h3 {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -218,7 +218,7 @@ body {
     margin-bottom: 24px;
 }
 
-.inspiration-text p {
+.text-design p {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -236,6 +236,43 @@ body {
     border-radius: 16px;
     margin-top: 48px;
 }
-.inspiration-video iframe{
+
+.inspiration-video iframe {
     border-radius: 16px;
+}
+
+/* My Targets */
+
+.my-target {
+    width: 1140px;
+    height: 460px;
+    margin-top: 150px;
+}
+.target-blocks{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.design{
+width: 280px;
+height: 250px;
+padding: 40px;
+}
+.design h4 p{
+    width: 284px;
+    height: 96px;
+}
+.design h4{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+}
+.design p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+
 }
