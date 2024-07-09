@@ -248,31 +248,100 @@ body {
     height: 460px;
     margin-top: 150px;
 }
-.target-blocks{
+
+.target-blocks {
     display: grid;
-    grid-template-columns: repeat(3 ,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
-.design{
-width: 280px;
-height: 250px;
-padding: 40px;
+
+.design {
+    width: 280px;
+    height: 250px;
+    padding: 40px;
 }
-.design h4 p{
+
+.design h4 p {
     width: 284px;
     height: 96px;
 }
-.design h4{
+
+.design h4 {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
     margin-top: 24px;
 }
-.design p{
+
+.design p {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     opacity: 0.7;
 
+}
+
+/* Support Sections */
+.support {
+    margin-top: 110px;
+    width: 1140px;
+    height: 313px;
+    background-position: center;
+    background-image: url('/assets/handshake.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support h3 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 36px;
+}
+
+#inp {
+    height: 57px;
+    width: 548px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin-right: 16px;
+
+}
+
+#but {
+    height: 57px;
+    width: 548px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
 }
