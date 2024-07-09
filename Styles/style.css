@@ -4,6 +4,13 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.backbone {
+    background-color: white;
+    width: 1440px;
+    height: 4480px;
+    /* Add this part to enhance the full page. Cause my Dekstop size is larger than the design */
+}
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -38,7 +45,13 @@ body {
     font-weight: 600;
     line-height: 23px;
     text-align: center;
+    cursor: pointer;
 
+}
+
+.navbar button:hover {
+    background-color: black;
+    color: white;
 }
 
 .banner {
@@ -81,13 +94,22 @@ body {
     height: 66px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
-    ;
     text-align: center;
+    color: white;
+    cursor: pointer;
 }
+
+.header-contents button:hover {
+    background: rgb(45, 47, 51);
+}
+
+.header-contents a {
+    text-decoration: none;
+}
+
 
 .header-contents img {
     margin-top: 20px;
@@ -195,6 +217,12 @@ body {
     font-weight: 500;
     line-height: 23px;
     text-align: center;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: rgb(24, 22, 22);
+    color: white;
 }
 
 /* My Inspiration */
@@ -258,6 +286,7 @@ body {
     width: 280px;
     height: 250px;
     padding: 40px;
+    border-radius: 16px;
 }
 
 .design h4 p {
@@ -315,6 +344,7 @@ body {
     line-height: 26px;
     opacity: 0.7;
     margin-bottom: 36px;
+    text-align: center;
 }
 
 #inp {
@@ -323,13 +353,17 @@ body {
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    color: rgba(13, 19, 33, 0.4);
+    color: black;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     text-align: center;
     margin-right: 16px;
 
+}
+
+#inp placeholder {
+    color: rgba(13, 19, 33, 0.4);
 }
 
 #but {
@@ -344,4 +378,32 @@ body {
     font-weight: 600;
     line-height: 23px;
     text-align: center;
+    cursor: pointer;
+}
+
+#but:hover {
+    background-color: rgb(153, 149, 149);
+    ;
+    color: white;
+}
+
+/* Footer Styles */
+
+#footer {
+    margin-top: 80px;
+    width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    flex-direction: row;
+    gap: 525px;
+    align-items: center;
+}
+
+.icons {
+    width: 157.01px;
+    height: 36px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
