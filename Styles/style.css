@@ -95,15 +95,19 @@ body {
 
 /* why dev styles */
 .why-dev {
-    width: 946px;
-    height: 1233px;
-    border: 2px solid red;
+    width: 1140px;
+    height: 1395px;
     margin: 0 auto;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 85px;
 }
 
 .textss {
     height: 113px;
     margin-bottom: 24px;
+    width: 830px;
 }
 
 .textss h3 {
@@ -126,7 +130,6 @@ body {
 }
 
 .container {
-    border: 2px solid red;
     height: 1072px;
     display: flex;
     flex-direction: column;
@@ -134,11 +137,13 @@ body {
 }
 
 .container-div {
-    width: 850px;
-    height: 240px;
+    width: 946px;
+    height: 336px;
+    padding: 48px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-bottom: 120px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .box {
@@ -147,6 +152,7 @@ body {
     /* justify-content: space-between; */
     align-items: center;
     margin: 0 auto;
+
 }
 
 .box-dif {
@@ -189,4 +195,47 @@ body {
     font-weight: 500;
     line-height: 23px;
     text-align: center;
+}
+
+/* My Inspiration */
+
+.my-inspiration {
+    width: 1140px;
+    height: 775px;
+}
+
+.inspiration-text {
+    width: 852px;
+    height: 113px;
+    text-align: center;
+}
+
+.inspiration-text h3 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+
+.inspiration-text p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+
+}
+
+.inspiration-video {
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 48px;
+}
+.inspiration-video iframe{
+    border-radius: 16px;
 }
