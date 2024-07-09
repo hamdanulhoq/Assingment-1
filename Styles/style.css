@@ -7,7 +7,7 @@ body {
 .backbone {
     background-color: white;
     width: 1440px;
-    height: 4480px;
+    height: 4450px;
     /* Add this part to enhance the full page. Cause my Dekstop size is larger than the design */
 }
 
@@ -274,7 +274,7 @@ body {
 .my-target {
     width: 1140px;
     height: 460px;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .target-blocks {
